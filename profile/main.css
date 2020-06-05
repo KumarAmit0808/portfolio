@@ -1,0 +1,270 @@
+ 
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.text-primary{
+    color: #3694ffbd;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 1.5rem 8rem;
+    height: 20px;
+    top: 0;
+    z-index: 0;
+    border-bottom: 3px solid #3693ff;
+
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar h2 a{
+    color: #fff;
+    text-decoration: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#navbar li a:hover{
+    background-color: #3693ff;
+}
+
+
+
+header{   
+    background: url(https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+    height: 91.6vh;
+  }
+  .box{
+    width: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding:40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+
+  #about{
+      padding: 5rem 0;
+    background: #0f1011;
+  }
+  #about h2{
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 3rem;
+  }
+  #about h3{
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+  #about p.lead{
+      margin-bottom: 1rem;
+
+  }
+
+  #about .about-content{
+      display:flex;
+  }
+
+  #about .about-text,
+  #about .about-image{
+      flex: 1;
+  }
+
+  #about .about-text{
+      text-align: justify;
+  }
+  #about .about-image img{
+      display: block;
+      margin-left: auto;
+      width: 75%;
+      border-radius: 40%;
+      margin-top: 60px;
+
+  }
+ 
+  #project {
+      background: url(https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&auto=format&fit=crop&w=500&q=60)  repeat center center/cover;
+      height: 160vh;
+  }
+
+  .project-bg{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 5rem 0;
+  }
+
+  #project h2{
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      color: #fff;
+
+  }
+  #project .boxes{
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+  #project .box{
+      background: rgba(33, 38, 43, 0.7);
+      display: flex;
+      padding: 2rem;
+      border-radius: 40px;
+      width: 130vh;
+      
+  }
+
+  #project .box:first-child, #project .box:nth-child(2){
+      margin-bottom: 3rem;
+  }
+
+  #project .box img{
+      border-radius: 30%;
+      margin-right: 2rem;
+  }
+
+  #project p{
+      color: #fff;
+  }
+  #project h3{
+    color: #3693ff;
+}
+
+#skill{
+    background: url(peter-gargiulo-cGNCepznaV8-unsplash.jpg) repeat center center/cover;
+    height: 180vh;
+}
+.skill-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5rem 0;
+}
+#skill h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+
+}
+
+#skill .box:first-child, #skill .box:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+#skill .box:first-child, #skill .box:nth-child(3) {
+    margin-bottom: 1rem;
+}
+
+#skill .box:first-child, #skill .box:nth-child(4) {
+    margin-bottom: 1rem;
+}
+
+
+#skill p{
+    color: #fff;
+}
+#skill h3{
+  color: #3693ff;
+}
+
+#experience{
+    padding: 5rem 0;
+    background: #0f1011;
+
+}
+
+ #experience h2{
+     color: #3693ff;
+ }
+
+ 
+ 
+
+ #contact{
+    background: url(josh-rose-trYl7JYATH0-unsplash.jpg) repeat center center/cover;
+    height: 60vh;
+}
+.contact-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5rem 0;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+
+}
+
+#contact .box{
+    background: rgba(33, 38, 43, 0.7);
+    display: flex;
+    text-align: justify;
+}
+
+
